@@ -1,0 +1,11 @@
+C:\DEV\BlazorWeatherPWA\BlazorWeatherPWA\Shared\bin\Debug\net7.0\BlazorWeatherPWA.Shared.deps.json
+C:\DEV\BlazorWeatherPWA\BlazorWeatherPWA\Shared\bin\Debug\net7.0\BlazorWeatherPWA.Shared.dll
+C:\DEV\BlazorWeatherPWA\BlazorWeatherPWA\Shared\bin\Debug\net7.0\BlazorWeatherPWA.Shared.pdb
+C:\DEV\BlazorWeatherPWA\BlazorWeatherPWA\Shared\obj\Debug\net7.0\BlazorWeatherPWA.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\DEV\BlazorWeatherPWA\BlazorWeatherPWA\Shared\obj\Debug\net7.0\BlazorWeatherPWA.Shared.AssemblyInfoInputs.cache
+C:\DEV\BlazorWeatherPWA\BlazorWeatherPWA\Shared\obj\Debug\net7.0\BlazorWeatherPWA.Shared.AssemblyInfo.cs
+C:\DEV\BlazorWeatherPWA\BlazorWeatherPWA\Shared\obj\Debug\net7.0\BlazorWeatherPWA.Shared.csproj.CoreCompileInputs.cache
+C:\DEV\BlazorWeatherPWA\BlazorWeatherPWA\Shared\obj\Debug\net7.0\BlazorWeatherPWA.Shared.dll
+C:\DEV\BlazorWeatherPWA\BlazorWeatherPWA\Shared\obj\Debug\net7.0\refint\BlazorWeatherPWA.Shared.dll
+C:\DEV\BlazorWeatherPWA\BlazorWeatherPWA\Shared\obj\Debug\net7.0\BlazorWeatherPWA.Shared.pdb
+C:\DEV\BlazorWeatherPWA\BlazorWeatherPWA\Shared\obj\Debug\net7.0\ref\BlazorWeatherPWA.Shared.dll
