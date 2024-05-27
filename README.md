@@ -53,3 +53,5 @@
 - Access through **navigator.geolocation** object
 - _GetCurrentPosition()_ to retrieve device location
 - Return **success** or **failure** callback
+- On Success, it returns **GeoLocationPosition** object:
+      - coords.latitue
