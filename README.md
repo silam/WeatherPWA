@@ -55,3 +55,10 @@
 - Return **success** or **failure** callback
 - On Success, it returns **GeoLocationPosition** object:
   - coords.latitue
+  - coords.longtitue
+  - coords.accuracy
+  - coords.altitude
+  - coords.altitudeAccuracy
+  - coords.heading
+  - coords.speed
+  - timestamp
