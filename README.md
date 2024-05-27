@@ -31,8 +31,8 @@
 - Has no DOM access
 
 ### Service workers life cycle:
-1 - Install: cache the static assets of the website. if successfully then next cycle
-2 - Activate: handle management of the OLD Caches, and delete old ones, then next step
-3 - Fetch: Contrl all the pages fall under its scopes and network request is made from PWA until it is terminated
+- Install: cache the static assets of the website. if successfully then next cycle
+- Activate: handle management of the OLD Caches, and delete old ones, then next step
+- Fetch: Contrl all the pages fall under its scopes and network request is made from PWA until it is terminated
 
 ### Generate sizes of the same image : Imagne Generator tool on PWABuilder at https://www.pwabuilder.com/generate
