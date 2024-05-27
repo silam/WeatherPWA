@@ -15,3 +15,5 @@
 ### Installation, starting the app from Start menu
 ### No need to distribute to iOS App
 ### Can be launched offline
+
+## Need to use HTTPS, need SSL certificate. Great source for SSL certificate is : https://letsencrypt.org
