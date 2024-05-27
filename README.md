@@ -22,5 +22,12 @@
 #### Service Workers
 - A Javascript file working offline for PWA
 - It controls how the web browser htndles its network requests and asset caching
+- able to caching
+- Background syncing
+- Push Notification
+- It intercepts and mofifies navigation and resource requests
+- It has full control of what resouces are cached
+- And run in background and run on different thread, no blocking, fully asynchronous
+- Has no DOM access
 
 ### Generate sizes of the same image : Imagne Generator tool on PWABuilder at https://www.pwabuilder.com/generate
