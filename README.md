@@ -17,3 +17,9 @@
 ### Can be launched offline
 
 ## Need to use HTTPS, need SSL certificate. Great source for SSL certificate is : https://letsencrypt.org
+
+#### Manifest File
+#### Service Workers
+- A Javascript file working offline for PWA
+- It controls how the web browser htndles its network requests and asset caching
+- 
