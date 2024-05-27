@@ -22,4 +22,5 @@
 #### Service Workers
 - A Javascript file working offline for PWA
 - It controls how the web browser htndles its network requests and asset caching
-- 
+
+### Generate sizes of the same image : Imagne Generator tool on PWABuilder at https://www.pwabuilder.com/generate
