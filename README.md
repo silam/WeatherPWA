@@ -6,3 +6,12 @@
 ## Using the Geolocation API
 ## Using the OpenWeather One Call API
 ## Create a PWA
+
+
+### Getting API key from httsp://openweathermap.org
+
+## Benefit of PWA
+### Push Notification
+### Installation, starting the app from Start menu
+### No need to distribute to iOS App
+### Can be launched offline
