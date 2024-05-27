@@ -1,5 +1,7 @@
 ﻿@page "/"
 @using BlazorWeatherPWA.Client.Models;
+@using System.Text;
+@inject HttpClient Http;
 
 @inject IJSRuntime js
 
@@ -16,12 +18,14 @@ else
 @code {
     string message = "Loading...";
     Position pos = new Position();
+    OpenWeather forecast;
 
     protected override async Task OnInitializedAsync()
     {
         try
         {
             await GetPosition();
+            await GetForecast();
         }
         catch (Exception ex)
         {
@@ -33,6 +37,28 @@ else
     {
         pos = await js.InvokeAsync<Position>(
             "bweInterop.getPosition");
+    }
+
+    private async Task GetForecast()
+    {
+        // will put in the keyvault later
+        string APIKey = "d1294acde94bb69900b0171b73050fa5";
+        StringBuilder url = new StringBuilder();
+
+        url.Append("https://api.openweathermap.org");
+        url.Append("/data/2.5/onecall?");
+        url.Append("lat=");
+        url.Append(pos.Latitude);
+        url.Append("&lon=");
+        url.Append(pos.Longitude);
+        url.Append("&exclude=");
+        url.Append("current, minutely, hourly, alerts");
+        url.Append("&units=imperial");
+        url.Append("&appid=");
+        url.Append(APIKey);
+
+        forecast = await Http.GetFromJsonAsync<OpenWeather>(url.ToString());
+
     }
 
 }
